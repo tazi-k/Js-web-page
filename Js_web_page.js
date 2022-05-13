@@ -28,3 +28,23 @@ function clock(){
 }
 
 setInterval(clock, 1000);
+
+//以下スライドショー
+
+var indexValue = 0;
+function slideShow(){
+  setTimeout(slideShow,2500);
+  var x;
+  const img = document.querySelectorAll("img");
+  for(x=0; img.length>x; x++){
+    img[x].style.display = "none";
+  }
+  indexValue++;
+  //全ての画像を一巡したらカウントリセット
+  if(indexValue > img.length){
+    indexValue = 1;
+  }
+  //配列の最初は「0」なので「-1」、一つの画像だけblock要素にして表示
+  img[indexValue - 1].style.display = "inline-block";
+}
+slideShow();

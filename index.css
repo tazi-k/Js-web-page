@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+.img{
+  text-align: center;
+}
+
+.img_content{
+  height: 550px;
+  width: 800px;
+}
+
+#clock_date{
+  font-family: 'Share Tech Mono', monospace;
+  text-shadow: 0 0 20px #0aafe6;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#clock_time{
+  font-family: 'Share Tech Mono', monospace;
+  text-shadow: 0 0 20px #0aafe6;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 60px;
+}
