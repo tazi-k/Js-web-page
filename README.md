@@ -1,1 +1,2 @@
-# Js-web-page
+# JavaScript Webページ
+## PCでしか見れない泣
