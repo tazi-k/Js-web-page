@@ -1,2 +1,3 @@
 # JavaScript Webページ
-## PCでしか見れない泣
+## PC対応のみ
+https://tazi-k.github.io/Js-web-page/
